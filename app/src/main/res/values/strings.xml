@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">FindPlayers</string>
+    <string name="main_bg">main_bg</string>
+    <string name="findplayers">FindPlayers</string>
+    <string name="go_and_find_your_best_team">GO AND FIND YOUR BEST TEAM</string>
+    <string name="button">Start</string>
+    <string name="desired_league">Desired League</string>
+    <string name="silvers">SILVERS</string>
+    <string name="gold_nova">Gold Nova</string>
+    <string name="master_guardian">Master Guardian</string>
+    <string name="big_star_eagle">Big Star - Eagle</string>
+    <string name="lem_global">LEM-Global</string>
+    <string name="next">NEXT</string>
+    <string name="league_bg">league_bg</string>
 </resources>
