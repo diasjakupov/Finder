@@ -44,11 +44,12 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3">
 
         <ToggleButton
-            android:id="@+id/toggleButton2"
+            android:id="@+id/silver"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:background="@drawable/btn_checked_selector"
+            android:onClick="onClickSelectLeague"
             android:text="@string/silvers"
             android:textOff="@string/silvers"
             android:textOn="@string/silvers"
@@ -56,11 +57,12 @@
             android:textStyle="normal|bold" />
 
         <ToggleButton
-            android:id="@+id/toggleButton3"
+            android:id="@+id/nova"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:background="@drawable/btn_checked_selector"
+            android:onClick="onClickSelectLeague"
             android:text="@string/gold_nova"
             android:textOff="@string/gold_nova"
             android:textOn="@string/gold_nova"
@@ -68,11 +70,12 @@
             android:textStyle="normal|bold" />
 
         <ToggleButton
-            android:id="@+id/toggleButton4"
+            android:id="@+id/guard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:background="@drawable/btn_checked_selector"
+            android:onClick="onClickSelectLeague"
             android:text="@string/master_guardian"
             android:textOff="@string/master_guardian"
             android:textOn="@string/master_guardian"
@@ -80,11 +83,12 @@
             android:textStyle="normal|bold" />
 
         <ToggleButton
-            android:id="@+id/toggleButton5"
+            android:id="@+id/starEagle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:background="@drawable/btn_checked_selector"
+            android:onClick="onClickSelectLeague"
             android:text="@string/big_star_eagle"
             android:textOff="@string/big_star_eagle"
             android:textOn="@string/big_star_eagle"
@@ -92,11 +96,12 @@
             android:textStyle="normal|bold" />
 
         <ToggleButton
-            android:id="@+id/toggleButton6"
+            android:id="@+id/Global"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:background="@drawable/btn_checked_selector"
+            android:onClick="onClickSelectLeague"
             android:text="@string/lem_global"
             android:textOff="@string/lem_global"
             android:textOn="@string/lem_global"
@@ -105,13 +110,14 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/next"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/main_btn"
+        android:onClick="onNext"
         android:text="@string/next"
         android:textColor="#000000"
         app:backgroundTint="#FFFFFF"

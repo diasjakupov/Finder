@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FindPlayers">
         <activity android:name=".LogActivity"></activity>
+        <activity android:name=".LobbiesActivity"></activity>
         <activity android:name=".activity_ranked" />
         <activity android:name=".MainActivity">
             <intent-filter>
