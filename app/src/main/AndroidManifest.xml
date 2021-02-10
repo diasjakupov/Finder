@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FindPlayers">
-        <activity android:name=".activity_ranked"></activity>
+        <activity android:name=".LogActivity"></activity>
+        <activity android:name=".activity_ranked" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
